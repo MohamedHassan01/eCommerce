@@ -1,0 +1,93 @@
+.v-application {
+  background-color: $dark !important;
+  color: #fff !important;
+}
+
+.products {
+  padding: 50px 0;
+  h2 {
+    margin-bottom: 30px;
+  }
+  .v-card {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    .active-icons {
+      position: absolute;
+      top: 20px;
+      right: -46px;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.3s ease-in-out;
+      .v-icon {
+        margin-bottom: 15px;
+        background: #fff;
+        color: grey;
+        padding: 10px;
+        border-radius: 50%;
+        opacity: 0.8;
+        &:hover {
+          opacity: 1;
+          color: $redFlatColor;
+        }
+      }
+    }
+    .details {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      position: absolute;
+      width: 100%;
+      background-color: $darkFlat;
+      bottom: -46px;
+      transition: all 0.3s ease-in-out;
+      .item-title {
+        justify-content: center;
+        margin: 0;
+      }
+      .brand {
+        padding: 5px 0 !important;
+        opacity: 0.7;
+        font-size: 13px;
+      }
+      .price {
+        color: $redFlatColor;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 0;
+      }
+      .images {
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        & .first {
+          margin-right: 10px;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          border: 3px solid transparent;
+          transition: all 0.3s ease-in-out;
+          &:hover:not(.active) {
+            opacity: 0.5;
+          }
+          &.active {
+            border: 3px solid $redFlatColor;
+            border-radius: 4px;
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+    &:hover {
+      .active-icons {
+        right: 20px;
+      }
+      .details {
+        bottom: 0px;
+      }
+    }
+  }
+}
