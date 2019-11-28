@@ -88,10 +88,11 @@ export default new Vuex.Store({
       {
         id: 1,
         trend: true,
-        new: false,
+        type: 'trend',
         brand: "ZARA",
         title: "Sport Suit Hoodie Batman 1",
         price: 199,
+        cate: 'Men',
         images: {
           first: {
             image: require("@/assets/trending/Sport-Suit-black.png"),
@@ -106,10 +107,11 @@ export default new Vuex.Store({
       {
         id: 2,
         trend: true,
-        new: false,
+        type: 'trend',
         brand: "ZARA",
         title: "East Hampton Fleece 2",
         price: 199,
+        cate: 'Women',
         images: {
           first: {
             image: require("@/assets/trending/hunting-sweatshirt-orange.png"),
@@ -124,10 +126,11 @@ export default new Vuex.Store({
       {
         id: 3,
         trend: true,
-        new: false,
+        type: 'trend',
         brand: "ZARA",
         title: "East Hampton Fleece 3",
         price: 199,
+        cate: 'Kids',
         images: {
           first: {
             image: require("@/assets/trending/Sport-Suit-black.png"),
@@ -142,7 +145,7 @@ export default new Vuex.Store({
       {
         id: 4,
         trend: true,
-        new: false,
+        type: 'trend',
         brand: "ZARA",
         title: "East Hampton Fleece 4",
         price: 199,
@@ -160,7 +163,7 @@ export default new Vuex.Store({
       {
         id: 5,
         trend: true,
-        new: false,
+        type: 'trend',
         brand: "ZARA",
         title: "East Hampton Fleece 5",
         price: 199,
@@ -178,7 +181,7 @@ export default new Vuex.Store({
       {
         id: 6,
         trend: true,
-        new: false,
+        type: 'trend',
         brand: "ZARA",
         title: "East Hampton Fleece 6",
         price: 199,
@@ -196,7 +199,7 @@ export default new Vuex.Store({
       {
         id: 7,
         trend: true,
-        new: false,
+        type: 'trend',
         brand: "ZARA",
         title: "East Hampton Fleece 7",
         price: 199,
@@ -214,7 +217,7 @@ export default new Vuex.Store({
       {
         id: 8,
         trend: true,
-        new: false,
+        type: 'trend',
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -231,8 +234,8 @@ export default new Vuex.Store({
       },
       {
         id: 9,
-        trend: false,
         new: true,
+        type: 'new',
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -249,8 +252,8 @@ export default new Vuex.Store({
       },
       {
         id: 10,
-        trend: false,
         new: true,
+        type: 'new',
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -267,8 +270,8 @@ export default new Vuex.Store({
       },
       {
         id: 11,
-        trend: false,
         new: true,
+        type: 'new',
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -285,8 +288,8 @@ export default new Vuex.Store({
       },
       {
         id: 12,
-        trend: false,
         new: true,
+        type: 'new',
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -303,8 +306,8 @@ export default new Vuex.Store({
       },
       {
         id: 13,
-        trend: false,
         new: true,
+        type: 'new',
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -321,8 +324,8 @@ export default new Vuex.Store({
       },
       {
         id: 14,
-        trend: false,
         new: true,
+        type: 'new',
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -339,8 +342,8 @@ export default new Vuex.Store({
       },
       {
         id: 15,
-        trend: false,
         new: true,
+        type: 'new',
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -357,8 +360,8 @@ export default new Vuex.Store({
       },
       {
         id: 16,
-        trend: false,
         new: true,
+        type: 'new',
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,

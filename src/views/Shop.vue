@@ -21,6 +21,12 @@
               :src="one.images.first.image"
             ></v-img>
 
+            <div
+              class="cate"
+            >
+              {{ one.type }}
+            </div>
+
             <div class="active-icons">
               <v-icon>mdi-eye</v-icon>
               <v-icon>mdi-heart</v-icon>

@@ -14,13 +14,19 @@
             class="text-center pb-4"
             height="500px"
             dark
-            v-if="newProduct.new"
+            v-if="newProduct.type === 'new'"
           >
             <v-img
               class="align-end"
               height="70%"
               :src="newProduct.images.first.image"
             ></v-img>
+
+            <div
+              class="cate"
+            >
+              {{ newProduct.type }}
+            </div>
 
             <div class="active-icons">
               <v-icon>mdi-eye</v-icon>

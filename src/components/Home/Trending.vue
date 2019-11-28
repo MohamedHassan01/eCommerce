@@ -14,13 +14,19 @@
             class="text-center pb-4"
             height="500px"
             dark
-            v-if="trend.trend"
+            v-if="trend.type === 'trend'"
           >
             <v-img
               class="align-end"
               height="70%"
               :src="trend.images.first.image"
             ></v-img>
+
+            <div
+              class="cate"
+            >
+              {{ trend.type }}
+            </div>
 
             <div class="active-icons">
               <v-icon>mdi-eye</v-icon>
