@@ -5,13 +5,6 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    links: [
-      { name: "Home", route: "/" },
-      { name: "Shop", route: "/shop" },
-      { name: "Men", route: "/men" },
-      { name: "Women", route: "/women" }
-    ],
-
     slides: [
       {
         index: "0",
@@ -88,11 +81,11 @@ export default new Vuex.Store({
       {
         id: 1,
         trend: true,
-        type: 'trend',
+        type: "trend",
         brand: "ZARA",
         title: "Sport Suit Hoodie Batman 1",
         price: 199,
-        cate: 'Men',
+        cate: "Men",
         images: {
           first: {
             image: require("@/assets/trending/Sport-Suit-black.png"),
@@ -107,11 +100,11 @@ export default new Vuex.Store({
       {
         id: 2,
         trend: true,
-        type: 'trend',
+        type: "trend",
         brand: "ZARA",
         title: "East Hampton Fleece 2",
         price: 199,
-        cate: 'Women',
+        cate: "Women",
         images: {
           first: {
             image: require("@/assets/trending/hunting-sweatshirt-orange.png"),
@@ -126,11 +119,11 @@ export default new Vuex.Store({
       {
         id: 3,
         trend: true,
-        type: 'trend',
+        type: "trend",
         brand: "ZARA",
         title: "East Hampton Fleece 3",
         price: 199,
-        cate: 'Kids',
+        cate: "Kids",
         images: {
           first: {
             image: require("@/assets/trending/Sport-Suit-black.png"),
@@ -145,7 +138,7 @@ export default new Vuex.Store({
       {
         id: 4,
         trend: true,
-        type: 'trend',
+        type: "trend",
         brand: "ZARA",
         title: "East Hampton Fleece 4",
         price: 199,
@@ -163,7 +156,7 @@ export default new Vuex.Store({
       {
         id: 5,
         trend: true,
-        type: 'trend',
+        type: "trend",
         brand: "ZARA",
         title: "East Hampton Fleece 5",
         price: 199,
@@ -181,7 +174,7 @@ export default new Vuex.Store({
       {
         id: 6,
         trend: true,
-        type: 'trend',
+        type: "trend",
         brand: "ZARA",
         title: "East Hampton Fleece 6",
         price: 199,
@@ -199,7 +192,7 @@ export default new Vuex.Store({
       {
         id: 7,
         trend: true,
-        type: 'trend',
+        type: "trend",
         brand: "ZARA",
         title: "East Hampton Fleece 7",
         price: 199,
@@ -217,7 +210,7 @@ export default new Vuex.Store({
       {
         id: 8,
         trend: true,
-        type: 'trend',
+        type: "trend",
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -235,7 +228,7 @@ export default new Vuex.Store({
       {
         id: 9,
         new: true,
-        type: 'new',
+        type: "new",
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -253,7 +246,7 @@ export default new Vuex.Store({
       {
         id: 10,
         new: true,
-        type: 'new',
+        type: "new",
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -271,7 +264,7 @@ export default new Vuex.Store({
       {
         id: 11,
         new: true,
-        type: 'new',
+        type: "new",
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -289,7 +282,7 @@ export default new Vuex.Store({
       {
         id: 12,
         new: true,
-        type: 'new',
+        type: "new",
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -307,7 +300,7 @@ export default new Vuex.Store({
       {
         id: 13,
         new: true,
-        type: 'new',
+        type: "new",
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -325,7 +318,7 @@ export default new Vuex.Store({
       {
         id: 14,
         new: true,
-        type: 'new',
+        type: "new",
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -343,7 +336,7 @@ export default new Vuex.Store({
       {
         id: 15,
         new: true,
-        type: 'new',
+        type: "new",
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -361,7 +354,7 @@ export default new Vuex.Store({
       {
         id: 16,
         new: true,
-        type: 'new',
+        type: "new",
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -391,6 +384,9 @@ export default new Vuex.Store({
   mutations: {
     toggleDrawer(state) {
       state.drawer = !state.drawer;
+    },
+    toggleMenu(state, { link }) {
+      state.link.dropMenu.active = !link.dropMenu.active;
     }
   },
 
