@@ -23,6 +23,7 @@
 
             <div
               class="cate"
+              v-if="one.type"
             >
               {{ one.type }}
             </div>

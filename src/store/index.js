@@ -117,6 +117,22 @@ export default new Vuex.Store({
         }
       },
       {
+        id: 19,
+        brand: "ZARA",
+        title: "East Hampton Fleece 8",
+        price: 199,
+        images: {
+          first: {
+            image: require("@/assets/trending/Sport-Suit-black.png"),
+            active: true
+          },
+          second: {
+            image: require("@/assets/trending/Sport-Suit-red.png"),
+            active: false
+          }
+        }
+      },
+      {
         id: 3,
         trend: true,
         type: "trend",
@@ -141,6 +157,22 @@ export default new Vuex.Store({
         type: "trend",
         brand: "ZARA",
         title: "East Hampton Fleece 4",
+        price: 199,
+        images: {
+          first: {
+            image: require("@/assets/trending/Sport-Suit-black.png"),
+            active: true
+          },
+          second: {
+            image: require("@/assets/trending/Sport-Suit-red.png"),
+            active: false
+          }
+        }
+      },
+      {
+        id: 22,
+        brand: "ZARA",
+        title: "East Hampton Fleece 8",
         price: 199,
         images: {
           first: {
@@ -211,6 +243,22 @@ export default new Vuex.Store({
         id: 8,
         trend: true,
         type: "trend",
+        brand: "ZARA",
+        title: "East Hampton Fleece 8",
+        price: 199,
+        images: {
+          first: {
+            image: require("@/assets/trending/Sport-Suit-black.png"),
+            active: true
+          },
+          second: {
+            image: require("@/assets/trending/Sport-Suit-red.png"),
+            active: false
+          }
+        }
+      },
+      {
+        id: 20,
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
@@ -298,6 +346,22 @@ export default new Vuex.Store({
         }
       },
       {
+        id: 21,
+        brand: "ZARA",
+        title: "East Hampton Fleece 8",
+        price: 199,
+        images: {
+          first: {
+            image: require("@/assets/trending/Sport-Suit-black.png"),
+            active: true
+          },
+          second: {
+            image: require("@/assets/trending/Sport-Suit-red.png"),
+            active: false
+          }
+        }
+      },
+      {
         id: 13,
         new: true,
         type: "new",
@@ -334,6 +398,22 @@ export default new Vuex.Store({
         }
       },
       {
+        id: 18,
+        brand: "ZARA",
+        title: "East Hampton Fleece 8",
+        price: 199,
+        images: {
+          first: {
+            image: require("@/assets/trending/Sport-Suit-black.png"),
+            active: true
+          },
+          second: {
+            image: require("@/assets/trending/Sport-Suit-red.png"),
+            active: false
+          }
+        }
+      },
+      {
         id: 15,
         new: true,
         type: "new",
@@ -352,9 +432,41 @@ export default new Vuex.Store({
         }
       },
       {
+        id: 23,
+        brand: "ZARA",
+        title: "East Hampton Fleece 8",
+        price: 199,
+        images: {
+          first: {
+            image: require("@/assets/trending/Sport-Suit-black.png"),
+            active: true
+          },
+          second: {
+            image: require("@/assets/trending/Sport-Suit-red.png"),
+            active: false
+          }
+        }
+      },
+      {
         id: 16,
         new: true,
         type: "new",
+        brand: "ZARA",
+        title: "East Hampton Fleece 8",
+        price: 199,
+        images: {
+          first: {
+            image: require("@/assets/trending/Sport-Suit-black.png"),
+            active: true
+          },
+          second: {
+            image: require("@/assets/trending/Sport-Suit-red.png"),
+            active: false
+          }
+        }
+      },
+      {
+        id: 17,
         brand: "ZARA",
         title: "East Hampton Fleece 8",
         price: 199,
