@@ -1,4 +1,4 @@
-# shopping-cart
+# eCommerce Website
 
 ## Project setup
 ```
